@@ -17,8 +17,6 @@
 ###  Weighted Phase Lag Index (wPLI) Analysis
 - **Table 1**: Top **10** functional connectivity pairs ranked by wPLI across different time intervals.
 
----
-
 ##  Supplementary Data
 
 ###  `Supplementary_1.pdf` - EEG Spectral Component Ratio Analysis
