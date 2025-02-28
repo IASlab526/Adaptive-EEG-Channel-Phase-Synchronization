@@ -109,8 +109,8 @@ Each sheet has dimensions **600000 x 32**, calculated as follows:
 - Each `.xlsx` file in `raw_EEG/` consists of **900000 rows (time series) and 32 columns (EEG channels)**.
 - Each `.xlsx` file in `PSD_data/` consists of **30 rows (one per minute) and 32 columns (EEG channels)**.
 - Each `.xlsx` file in `process_EEG/` contains **two sheets (fatigue and nonfatigue), each with 600000 rows and 32 columns**.
-
-[Fatigue Experimental EEG data](:https://drive.google.com/drive/folders/1Wf6dAur-h3ABM7QFeatFyG7fkgIk2MF0?usp=sharing)。
+ 
+#### EEG data resource [Fatigue Experimental EEG data](https://drive.google.com/drive/folders/1Wf6dAur-h3ABM7QFeatFyG7fkgIk2MF0?usp=sharing)。
 
 ## Copyright and Usage
 This dataset is for research and academic purposes only. Commercial use is prohibited. For inquiries or if you need access to the files, please contact the author.
