@@ -113,7 +113,6 @@ Each sheet has dimensions **600000 x 32**, calculated as follows:
 
 ## Copyright and Usage
 This dataset is for research and academic purposes only. Commercial use is prohibited. For inquiries or if you need access to the files, please contact the author.
-
+[Fatigue Experimental EEG data](:https://drive.google.com/drive/folders/1Wf6dAur-h3ABM7QFeatFyG7fkgIk2MF0?usp=sharing)。
 ---
-Author: XXX  
-Contact: xxx@email.com
+
