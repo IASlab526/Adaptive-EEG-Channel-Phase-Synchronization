@@ -1,39 +1,39 @@
 # Description
 ### This repo is for the "Adaptive EEG Channel Phase Synchronization for Individualized Mental Fatigue Detection" journal appendix
 * The files contain 10 subjects.
+
 ## Contents
 
 ###  Non-fatigue brain connectivity map
-- **Figure 1(a)**: Brain connectivity map during the **non-fatigue state** (0–20 minutes).
-- **Figure 1(b)**: Brain connectivity map during the **fatigue state** (41–60 minutes).
+- **Brain connectivity map during the **non-fatigue state** (0–20 minutes) for 10 subjects.
+- **Brain connectivity map during the **fatigue state** (41–60 minutes) for 10 subjects.
   
 ###  Fatigue Assessment Scale (FAS) questionnaire results
-- **Figure 2**: **Before and after** fatigue questionnaire scores.
+- **Before and after** fatigue questionnaire scores.
 
-###  Frequency Band Power characteristics
-- **Figure 3(a)**: Frequency band power distribution in the **non-fatigue state**.
-- **Figure 3(b)**: Frequency band power distribution in the **fatigue state**.
+###  Frequency Band Power Characteristics
+- **: Frequency band power distribution in the **non-fatigue state**  for 10 subjects.
+- **: Frequency band power distribution in the **fatigue state**  for 10 subjects.
 
 ###  Weighted Phase Lag Index (wPLI) Analysis
-- **Table 1**: Top **10** functional connectivity pairs ranked by wPLI across different time intervals.
+- **Top **10** wPLI functional connectivity topology maps for 10 subjects.
+- **Top **5** wPLI functional connectivity analysis of brain region category for 10 subjects.
 
 ##  Supplementary Data
 
 ###  `Supplementary_1.pdf` - EEG Spectral Component Ratio Analysis
 - Data from **10 subjects**, divided into **0–20 min (non-fatigue) and 41–60 min (fatigue)**.
 - **Power Spectral Density (PSD)** analysis and feature extraction.
-- **Theta (𝜃), Alpha (𝛼), and Beta (𝛽) wave characteristics**:
-  - Increase in **𝜃/𝛼 ratio** in **frontal and temporal regions** during fatigue.
-  - Decrease in **𝛼/𝛽 ratio**, indicating **higher β-wave activity** for sustained alertness.
-  - **(𝜃 + 𝛼)/(𝛼 + 𝛽) ratio** changes suggest a balance between **drowsiness and alertness**.
 
-###  `Supplementary_2.pdf` - Fatigue Assessment Scale (FAS) Analysis
+###  `Supplementary_2.pdf` - Fatigue Assessment Scale (FAS) Analysis and wPLI-bаsed connectivity analysis
+
 - **FAS is a subjective fatigue assessment** using **a 10-item questionnaire** (score range: 10–50).
-- **Pre- and post-experiment FAS scores**:
-  - **Before**: 4 healthy, 5 mildly fatigued, 1 severely fatigued.
-  - **After**: 8 subjects reached **severe fatigue**, 2 reached **moderate to severe** levels.
+- ** wPLI-bаsed connectivity analysis focuses on the top five individual wPLI connections
 
-## Supplementary 3 EEG Data Overview
+
+## Experimental Data Overview
+#### Mental Fatigue Experimental EEG data resource [Fatigue Experimental EEG data](https://drive.google.com/drive/folders/1Wf6dAur-h3ABM7QFeatFyG7fkgIk2MF0?usp=sharing)。
+
 This dataset contains electroencephalogram (EEG) signals, categorized into fatigued and non-fatigued states for different subjects. Data was collected from 10 subjects, with each subject having multiple files:
 
 - `raw_EEG/`: Contains original EEG recordings.
@@ -110,8 +110,6 @@ Each sheet has dimensions **600000 x 32**, calculated as follows:
 - Each `.xlsx` file in `PSD_data/` consists of **30 rows (one per minute) and 32 columns (EEG channels)**.
 - Each `.xlsx` file in `process_EEG/` contains **two sheets (fatigue and nonfatigue), each with 600000 rows and 32 columns**.
  
-#### EEG data resource [Fatigue Experimental EEG data](https://drive.google.com/drive/folders/1Wf6dAur-h3ABM7QFeatFyG7fkgIk2MF0?usp=sharing)。
-
 ## Copyright and Usage
 This dataset is for research and academic purposes only. Commercial use is prohibited. For inquiries or if you need access to the files, please contact the author.
 
